@@ -2,7 +2,7 @@ const express = require('express')
 const app = express();
 
 app.get('/',(req,res)=>{
-    res.send('Getting request')
+    res.send('Getting request from front')
 })
 
 app.get('/signin',(req,res)=>{
